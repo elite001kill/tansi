@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: yellow;
+}
+
+header {
+    background-color: #007BFF; /* Primary color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.container {
+    padding: 20px;
+    animation: slideIn 1s;
+}
+
+
+
+footer {
+    background-color:rgb(177, 114, 114);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animations */
+@keyframes feDiffuseLighting {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes feFlood {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.gt{
+    font-size: medium;
+    color: indianred;
+    background-color: rgb(19, 240, 107);
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: yellowgreen;
+}
+
+header {
+    background-color: #007BFF; /* Primary color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 1s;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav .ja {
+    margin: 0 15px;
+    color: rgb(114, 219, 9);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.container {
+    padding: 20px;
+    animation: slideIn 1s;
+}
+
+/* Home Page Styles */
+.home {
+    background-color: #cad5de; /* Light background */
+}
+
+/* About Page Styles */
+.about {
+    background-color: #9ed4b4; /* Slightly darker */
+}
+
+/* Contact Page Styles */
+.contact {
+    background-color: #b3ce8c; /* Even darker */
+}
+
+footer {
+    background-color: #cd187f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.bv{
+    color: rgba(21, 12, 99, 0.696);
+    font-size: 40px;
+}
+.school{
+    background-color: purple;
+    padding: 1.5%;
+    padding-right: 1.2%;
+    padding-right: 1.6%;
+}
+.bn{
+    color: black;
+}
+.zzz{
+    color: rgb(208, 16, 16);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.za{
+color: rgb(255, 255, 255);
+background-color: rgb(16, 107, 16);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #eabb22;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.ij{
+    color: blue;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.aa{
+    color: rgb(9, 9, 9);
+    background-color: rgb(242, 173, 185);
+}
+.ab{
+    color: green;
+    background-color: rgb(141, 236, 25);
+    padding: auto;
+    container-type: fixed;
+}
+.ja{
+    color: #4a10dc;
+    background-color: rgb(253, 41, 41);
+}
